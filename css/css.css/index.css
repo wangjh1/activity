@@ -1,0 +1,473 @@
+img{
+    display:inline-block;
+    width: 100px;
+    z-index: 1;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.activity-page{
+    max-width: 800px;
+    margin: auto;
+    background-color:#AD1C38;
+    position: relative;
+    overflow: auto;
+}
+.start-block{
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 261%;
+    background-image:url("../../images/shouye.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0 0;
+    position: relative;
+}
+.start-content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.fangwen{
+    width:18%;
+    margin: 31px 0 0 10px;
+}
+.kaixinhuijia-1{
+    position: absolute;
+    top: 7%;
+    left: 32%;
+    width: 35%;
+}
+.bigtitle{
+    width: 50%;
+    position: absolute;
+    top: 16%;
+    left: 25%;
+}
+.gamestart{
+    position: absolute;
+    top: 23%;
+    width: 35%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.car-1{
+    width: 45%;
+    position: absolute;
+    top: 32%;
+    left: 12%;
+}
+.car-2{
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    width: 45%;
+}
+.jiage{
+    position: absolute;
+    top: 46%;
+    width: 70%;
+    left: 15%;
+}
+.huodong{
+    position: absolute;
+    top: 53%;
+    left: 25%;
+    width: 50%;
+}
+.map-block{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 35%;
+    z-index: 0;
+}
+.map-img{
+    width: 100%;
+}
+.car-icon{
+    width: 20%;
+    position: absolute;
+    z-index: 1;
+}
+.icon-1{
+    bottom: 14%;
+    left: 42%;
+}
+.icon-2{
+    bottom: 20%;
+    left: 77%;
+}
+.icon-3{
+    bottom: 11%;
+    left: 67%;
+}
+.rule-block{
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 100%;
+}
+.xinnian{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+.liwu{
+    position: absolute;
+    top: 41%;
+    left: 55%;
+    width: 4%;
+}
+.switch-tab{
+    position: relative;
+}
+.switch-item-1{
+    position: relative;
+    width: 65%;
+    z-index: 2;
+}
+.switch-item-2{
+    position: absolute;
+    width: 41%;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+.gohome{
+    margin: 0 10px 50px 10px;
+}
+.flex{
+    display: flex;
+}
+.flex-left{
+    width: 100px;
+    flex-shrink: 0;
+}
+.video-left-img{
+    width: 100px;
+    height: 74px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0 0;
+}
+.shejian-bg{
+    background-image: url('../../images/bwshejian.png');
+}
+.shejian-bg.active{
+    background-image: url('../../images/shejian.png');
+}
+.xingfu-bg{
+    background-image: url('../../images/bwxingfu.png');
+}
+.xingfu-bg.active{
+    background-image: url('../../images/xingfu.png');
+}
+.niansu-bg{
+    background-image: url('../../images/bwlvtu.png');
+}
+.niansu-bg.active{
+    background-image: url('../../images/niansu.png');
+}
+.flex-right{
+    flex: 1;
+    background-color: rgba(0,0,0,.4);
+}
+.page-foot{
+    margin-top: 50px;
+}
+.page-foot img{
+    width: 100%;
+}
+.submit-title img{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 50px;
+}
+.submit-desc{
+    width: 80%;
+    margin: 0 auto;
+}
+.submit-item{
+    margin-bottom: 40px;
+    height: 50px;
+}
+.item-title{
+    line-height: 50px;
+    font-family: PingFangSC-Regular;
+    font-size: 22px;
+    color: #FBF3BA;
+    flex-shrink: 0;
+}
+input{
+    height: 50px;
+    flex: 1;
+    background: #ad1c38;
+    border: 1px solid #FBF3BA;
+    padding: 10px;
+    color: #FBF3BA;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+input::-webkit-input-placeholder{
+    color: #FBF3BA;
+}
+input::-moz-placeholder{
+    color: #FBF3BA;
+}
+input:-ms-input-placeholder{
+    color: #FBF3BA;
+}
+.select-block{
+    height: 50px;
+    flex: 1;
+    background: #ad1c38;
+    border: 1px solid #FBF3BA;
+    padding: 10px;
+    color: #FBF3BA;
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.select-hover{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    display: none;
+}
+.select-block:hover .select-hover{
+    display: block;
+}
+.select-item{
+    line-height: 30px;
+    background: #fff;
+    color: #212121;
+    padding: 10px;
+}
+.submit-tip img{
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+.submit-btn{
+    background: #FBF3BA;
+    margin: 60px auto;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: #AD1C38;
+    line-height: 1.8;
+}
+.tuwenhuicui-img{
+    margin: 0 30px;
+    padding-top: 54.5%;
+    position: relative;
+}
+.tuwenhuicui-img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.3);
+}
+.tuwenhuicui-tip{
+    font-family: Helvetica;
+    font-size: 24px;
+    color: #FBF3BA;
+    text-align: center;
+    margin: 20px 50px 50px;
+}
+.img-left{
+    display: flex;
+    align-items: center;
+    margin: 0 20px 0 40px;
+    width: 30px;
+}
+.img-left img{
+    transform: rotate(180deg);
+    width: 100%;
+}
+.img-center{
+    padding-bottom: 43%;
+    flex: 1;
+    width: 372px;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0,0,0,.3);
+}
+.img-center img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.img-right{
+    display: flex;
+    align-items: center;
+    margin: 0 40px 0 20px;
+    width: 30px;
+}
+.img-right img{
+    width: 100%;
+}
+.change-img-small-list{
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    margin: 20px 80px;
+    justify-content: center;
+}
+.small-img-item{
+    
+   
+    margin: 0 10px;
+    background-color: rgba(0,0,0,.3);
+}
+.small-img-item.active{
+    box-sizing: border-box;
+    border: 1px solid #FBF3BA;
+}
+.small-img-item img{
+    width: 100%;
+    height: 100%;
+}
+.small-page-btn{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #A7A7A6;
+    color: #AD1C38;
+    font-size: 24px;
+    margin: 0 10px;
+}
+.small-page-btn.active{
+    background-color: #FBF3BA;
+}
+.small-item-edge{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    background: #FBF3BA;
+    line-height: 1;
+    color: #AD1C38;
+    flex-shrink: 0;
+}
+.block-1{
+    overflow: auto;
+    margin-bottom: 30px;
+}
+/*
+ * .bigtitle{
+ *     width: 50%;
+ *         height: 65px;
+ *             position: relative;
+ *                 top:258px;
+ *                     left:29px;
+ *                     }
+ *                     .gamestart{
+ *                         width: 40%;
+ *                             height:60px;
+ *                                 position: relative;
+ *                                     top: 328px;
+ *                                         left: 220px;
+ *                                          }
+ *                                          .jiage{
+ *                                              width: 40%;
+ *                                                  height:75px;
+ *                                                      position: relative;
+ *                                                          top: 28%;
+ *                                                              left: -13%;
+ *                                                              }
+ *                                                              .huodong{
+ *                                                                  width: 53%;
+ *                                                                      height: 5%;
+ *                                                                          position: relative;
+ *                                                                              top: 40%;
+ *                                                                                  left: 20%;
+ *                                                                                  }
+ *                                                                                  .map{
+ *                                                                                      width: 100%;
+ *                                                                                          height: 1200px;
+ *                                                                                              background-image: url("../../images/map.png");
+ *                                                                                                  background-repeat: no-repeat;
+ *                                                                                                      background-size: cover;
+ *                                                                                                          background-position: center center;
+ *                                                                                                          }
+ *                                                                                                          .xinnian{
+ *                                                                                                              width: 50%;
+ *                                                                                                                  height: 200px;
+ *                                                                                                                      position: relative;
+ *                                                                                                                          top:20%;
+ *                                                                                                                              left:27%;
+ *                                                                                                                              }
+ *                                                                                                                              .chongqing{
+ *                                                                                                                                  display: inline-block;
+ *                                                                                                                                      width: 13%;
+ *                                                                                                                                          height: 100px;
+ *                                                                                                                                              position: relative;
+ *                                                                                                                                                  top:60%;
+ *                                                                                                                                                      left:5%;
+ *                                                                                                                                                      }
+ *                                                                                                                                                      .zhognqingcar{
+ *                                                                                                                                                          width:100%;
+ *                                                                                                                                                              height:100%;
+ *                                                                                                                                                                  background-size: cover;
+ *
+ *                                                                                                                                                                  }
+ *                                                                                                                                                                  .home{
+ *                                                                                                                                                                      width: 30%;
+ *                                                                                                                                                                          height: 19%;
+ *                                                                                                                                                                              position:relative;
+ *                                                                                                                                                                                  top:20px;
+ *                                                                                                                                                                                      left:24%;
+ *                                                                                                                                                                                          z-index:20;
+ *                                                                                                                                                                                          }
+ *                                                                                                                                                                                          .bwvideo{
+ *                                                                                                                                                                                              width: 25%;
+ *                                                                                                                                                                                                  height: 19%;
+ *                                                                                                                                                                                                      position:relative;
+ *                                                                                                                                                                                                          top:20px;
+ *                                                                                                                                                                                                              left:20%;
+ *                                                                                                                                                                                                              }
+ *                                                                                                                                                                                                              .gohome{
+ *                                                                                                                                                                                                                  width: 70%;
+ *                                                                                                                                                                                                                      height: 400px;
+ *                                                                                                                                                                                                                          margin-left:19%;
+ *                                                                                                                                                                                                                          }
+ *                                                                                                                                                                                                                          ul li{
+ *                                                                                                                                                                                                                              list-style-type: none;
+ *                                                                                                                                                                                                                                  width:20%;
+ *                                                                                                                                                                                                                                      height: 100px;
+ *                                                                                                                                                                                                                                      }
+ *                                                                                                                                                                                                                                      .shejian{
+ *                                                                                                                                                                                                                                          width: 172%;
+ *                                                                                                                                                                                                                                              height: 100%;
+ *                                                                                                                                                                                                                                                  background-size: cover;
+ *                                                                                                                                                                                                                                                  }
+ *                                                                                                                                                                                                                                                  .left{
+ *                                                                                                                                                                                                                                                      width:20%;
+ *                                                                                                                                                                                                                                                          height:400px;
+ *
+ *                                                                                                                                                                                                                                                          } */
+.videoss{
+    width:420px;
+    background: #000;
+    height:240px;
+}
+
